@@ -42,13 +42,13 @@ $(document).ready(function(){
             
         }
 
-        $('#chipertext').html(chiperText);
+        $('#chipertext').val(chiperText);
 
     });
 
     $('#clear').on('click', function () { 
         $('#plaintext').val('');
         $('#kunci').val('');
-        $('#chipertext').html('');
+        $('#chipertext').val('');
     });
 });
