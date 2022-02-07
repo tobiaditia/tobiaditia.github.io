@@ -101,4 +101,10 @@ $(document).ready(function(){
         $('#plaintextInDec').val(plainText);
 
     });
+
+    $('#clearInDec').on('click', function () {
+        $('#plaintextInDec').val('');
+        $('#kunciInDec').val('');
+        $('#chipertextInDec').val('');
+    });
 });
